@@ -29,7 +29,7 @@ jobs:
 
       - name: Run script
         run: |
-          python industry_constituents.py
+          python industry_constituents2.py
 
       - name: Commit and push changes
         env:
