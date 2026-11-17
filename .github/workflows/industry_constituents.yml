@@ -2,7 +2,7 @@ name: Industry Constituents Data Update
 
 on:
   schedule:
-    - cron: '15 0 * * *'    # 北京时间每天 08:15
+    - cron: '17 0 * * *'    # 北京时间每天 08:15
     - cron: '35 7 * * *'    # 北京时间每天 15:35
   workflow_dispatch:
 
